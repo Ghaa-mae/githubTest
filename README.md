@@ -1,5 +1,5 @@
 # githubTest
 
-##Test GIT
+## MODIFICATION
 
-Le tutoriel sur git est presque fini
+Texte modifiée.
