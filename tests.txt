@@ -1,0 +1,22 @@
+#include "stdafx.h" 
+ 
+ int a,b; 
+  
+ int somme( int x, int y) 
+ { 
+  return x+y; 
+ } 
+ 
+ int _tmain(int argc, _TCHAR* argv[]) 
+ { 
+ int n; 
+   
+ printf("Entrez la premier nombre: "); 
+ scanf_s("%d", &a); 
+ printf("Entrez le second nombre: "); 
+ scanf_s("%d", &b); 
+ n = somme(a, b); 
+ printf("La somme de %d et %d est %d",  a, b, n); 
+   
+ return 0; 
+} 
